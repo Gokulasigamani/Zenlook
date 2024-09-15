@@ -1,0 +1,17 @@
+.duration {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.158); /* Fallback solid background */
+    transition: background 0.9s, color 0.9s;
+  }
+  
+  .duration:hover {
+    background: linear-gradient(to bottom, rgb(155, 0, 93), rgb(28, 0, 166));
+    color: rgb(0, 0, 0);
+  }
+  
+  .parent:hover > .child1 > .child  {
+    background: linear-gradient(to top, rgb(246, 1, 148), rgb(84, 58, 213));
+  }
+  

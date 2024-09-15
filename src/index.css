@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body
+{
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.vbg {
+  background-image: linear-gradient(
+    to bottom,
+    #33005e,
+    #380045,
+    #330030,
+    #2a011f,
+    #1f0112,
+    #1a010e,
+    #14000a,
+    #0c0005,
+    #11000b,
+    #140012,
+    #140019,
+    #11001f
+  );
+}
+
+.txtfoot {
+    color: #882bc2;
+    background-image: -webkit-linear-gradient(90deg, #882bc2 38%, #0b0b9c 53%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+/* styles.css or your relevant CSS file */
+.card-gradient-transition {
+  transition: background-image 1s ease-in-out;
+  background-image: linear-gradient(to bottom, #ffffff19, #ffffff19);
+}
+
+.card-gradient-transition:hover {
+  background-image: linear-gradient(to bottom, #f9a8d4, #4f46e5); /* Example gradient */
+}
