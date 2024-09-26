@@ -29,7 +29,7 @@ const WorkWith = () => {
       ];
 
   return (
-    <div className='relative w-full h-[600px]'>
+    <div className='relative w-full md:h-[570px] mb-20 md:mb-0'>
 
       {/* left ninja-star */}
         <motion.img
@@ -37,7 +37,7 @@ const WorkWith = () => {
           width={40}
           height={40}
           alt="Ninja Star"
-          className="absolute top-56 left-56 w-12 h-12 z-10"
+          className="absolute top-32 left-56 w-12 h-12 z-10 md:absolute hidden"
           animate={{ 
             // rotate: 360,
             y: [0, -8, 0],
@@ -65,13 +65,13 @@ const WorkWith = () => {
         />
 
 
-        <div className='flex-col items-center justify-center mt-28'>
+        <div className='flex-col flex  items-center justify-center mt-28'>
 
             <h1 className="text-center text-[40px] font-semibold font-poppins text-transparent bg-clip-text bg-gradient-to-r from-[#FF29C39E] to-[#FFFFFF9E]">
                 Work with Zen Hook
             </h1>
 
-            <div className="mt-[70px] flex justify-center items-center space-x-4 gap-28">
+            <div className="mt-[70px] flex flex-wrap justify-center items-center space-x-4 gap-28">
                 {workWith.map((workwith, index) => (
                     <WorkWithCards
                     key={index}
@@ -90,7 +90,7 @@ const WorkWith = () => {
           width={40}
           height={40}
           alt="Ninja Star"
-          className="absolute top-[26rem] right-44 w-12 h-12"
+          className="absolute top-[20rem] right-40 w-12 h-12 md:absolute hidden"
           animate={{ 
             // rotate: 360,
             y: [0, -8, 0],

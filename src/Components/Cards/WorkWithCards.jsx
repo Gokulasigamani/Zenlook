@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkWithCards = ({icon,countTitle,title}) => {
   return (
-    <div className='flex-col justify-center items-center w-[250px]'>
+    <div className='flex-col justify-center items-center w-full md:w-[250px]'>
 
         <div className=' flex-col space-y-1' >
 

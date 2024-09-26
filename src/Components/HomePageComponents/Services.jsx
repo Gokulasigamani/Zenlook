@@ -1,5 +1,4 @@
 import React from "react";
-import Title from "../Typography/Title";
 import img from '../images/services-img.png'
 import ServiceGradient from "../gradientBg/ServiceGradient";
 import ServiceCards from "../Cards/ServiceCards";
@@ -27,7 +26,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="w-full flex pt-5 h-[100vh] relative">
+    <div className="w-full flex pt-5 md:h-[100vh] relative">
       <ServiceGradient />
 
       {/* Image */}

@@ -8,6 +8,8 @@ export default function HeroGradient() {
         <div className='absolute blur-[10px] opacity-75 rounded-[100px] bg-gradient-to-r from-purple-500 to-pink-500 w-24 h-24 top-[20%] left-[55%]'></div>
         <div className='bg-yellow-500 w-10 h-10 absolute rounded-full blur-[2px]'></div>
         <div className='top-[80%] left-[780px] bg-orange-600 w-10 h-10 absolute rounded-full blur-[5px]'></div>
+        <div className='top-[60%] md:hidden  left-[320px] bg-orange-600 w-10 h-10 absolute rounded-full blur-[10px]'></div>
+        <div className='absolute md:hidden blur-[10px] opacity-75 rounded-[100px] bg-gradient-to-r from-purple-500 to-pink-500 w-24 h-24 top-[20%] left-[55%]'></div>
 
     </>
   )

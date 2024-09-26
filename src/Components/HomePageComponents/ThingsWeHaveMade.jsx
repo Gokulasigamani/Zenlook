@@ -11,7 +11,7 @@ export default function ThingsWeHaveMade() {
     <div className="flex flex-col items-center justify-center relative">
       <div className="rounded-[700px] top-0 left-0 bg-gradient-to-r rotate-90 from-[#00c3ffdb] to-[#FF29C3] absolute h-[500px] w-[500px] blur-[250px] "></div>
       <Title title={"Things We've Made"} miniTitle={"Work"} />
-      <p className="text-[rgb(187,187,187)] font-thin text-xl font-poppins max-w-[33%] text-center pt-4 tracking-wide">
+      <p className="text-[rgb(187,187,187)] font-thin text-base md:text-xl font-poppins p-5 md:max-w-[33%] text-center pt-4 tracking-wide">
         We help our clients grow their bottom-line with clear and professional
         websites.
       </p>
@@ -24,7 +24,7 @@ export default function ThingsWeHaveMade() {
                 <div
                   key={index}
                   className={`transition-all duration-300 mx-4 ${
-                    index % 4 === 0 || index % 4 === 2 ? "pt-24" : "pt-0"
+                    index % 4 === 0 || index % 4 === 2 ? "md:pt-24" : "pt-0"
                   }`}
                 >
                   <WorksCardsX />
@@ -38,7 +38,7 @@ export default function ThingsWeHaveMade() {
                 <div
                   key={index}
                   className={`transition-all duration-300 mx-4 ${
-                    index % 4 === 0 || index % 4 === 2 ? "pt-24" : "pt-0"
+                    index % 4 === 0 || index % 4 === 2 ? "md:pt-24" : "pt-0"
                   }`}
                 >
                   <WorksCardsX />
@@ -48,14 +48,14 @@ export default function ThingsWeHaveMade() {
           </div>
         </Marquee>
       </div>
-
+{/* 
       <div className="flex p-10 text-4xl text-white items-center pt-28">
         <FcPrevious className="border border-white rounded-full w-12 h-12 p-2" />
         <p className="text-sm px-4 tracking-[1px] font-poppins leading-8 ">
           1 / 3
         </p>
         <FcNext className="border border-white rounded-full w-12 h-12 p-2" />
-      </div>
+      </div> */}
     </div>
   );
 }
